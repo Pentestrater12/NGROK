@@ -30,3 +30,4 @@ printf "\e[1;40m.                       PLEASE SUPPORT ME SUBSCRIBE MY YOUTUBE C
 read -p "PRESS ENTER TO BACK ON NGROK " ENTER
 if [ $ENTER == "U" ]; then
 cd $HOME && cd NGROK && bash ngrok.sh
+exit
