@@ -26,7 +26,7 @@ echo
 printf "\e[1;40m                          THIS TOOL CAN HELP YOU INSTALL NGROK AND GET NGROK LINK WITH ON TOOL\e[0m\n"
 echo   
 echo 
-printf "\e[1;40m.                       PLEASE SUPPORT ME SUBSCRIBE MY YOUTUBE CHANNEL MY FB ACCOUNT https://www.facebook.com/profile.php?id=100068954811075
+printf "\e[1;40m                        PLEASE SUPPORT ME SUBSCRIBE MY YOUTUBE CHANNEL MY FB ACCOUNT https://www.facebook.com/profile.php?id=100068954811075\e[0m\n"
 read -p "PRESS ENTER TO BACK ON NGROK " ENTER
 if [ $ENTER == "U" ]; then
 cd $HOME && cd NGROK && bash ngrok.sh
