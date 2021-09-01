@@ -14,6 +14,5 @@ read -p "🇵​​​​​🇷​​​​​🇪​​​​​🇸​​​�
 echo -e $red ENTER 4 NUMBER PORTS
 read -p "ENTER PORT: " Prinxe
 cd $HOME && cd NGROK && ./ngrok tcp $Prinxe
-fi
 sleep 1
 exit
