@@ -43,26 +43,26 @@ echo
 echo 
 echo -e $red                              "[01] > HTTP SERVER"
 echo -e $red                              "[02] > TCP SERVER"
-echo -e $red.                             "[03] > TLS SERVER" 
+echo -e $red                              "[03] > TLS SERVER" 
 echo -e $red                              "[04] > ABOUT"
-echo -e $red.                             "[00] > EXIT"
+echo -e $red                              "[00] > EXIT"
 echo
 echo
 read -p                              "𝑆𝐸𝐿𝐸𝐶𝑇 𝑆𝐸𝑅𝑉𝐸𝑅 𝑂𝑃𝑇𝐼𝑂𝑁$ " hug
 
 if [[ $hug == 1 || $hug == 01 ]]; then
 
-cd TUNNELS && bash HTTP
+cd TUNNNELS && bash HTTP
 
 elif [[ $hug == 2 || $hug == 02 ]]; then
 
-cd TUNNELS && bash TCP
+cd TUNNNELS && bash TCP
 
 elif [[ $hug == 3 || $hug == 03 ]]; then
-cd TUNNELS && bash TLS
+cd TUNNNELS && bash TLS
 
 elif [[ $hug == 4 ||$hug == 04 ]]; then
-cd TUNNELS && bash ABOUT
+cd TUNNNELS && bash ABOUT
 
 elif [[ $hug == 0 || $hug == 00 ]]; then
 exit 
